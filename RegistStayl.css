@@ -1,0 +1,160 @@
+#background
+{
+	background-color: #D0F86F;
+	width: 100%;
+	height: 100%;
+	position: absolute;
+	top: 0%;
+	left: 0%;
+}
+#backgroundRegist
+{
+	background-color: rgba(171,240,0, .9);
+	width: 30%;
+	height: 100%;
+	position: absolute;
+	top: 0%;
+	left: 0%;
+}
+#BoxRegistcollor
+{
+	background-color: rgba(141,180,45, .6);
+	width: 90%;
+	height: 75%;
+	position: absolute;
+	top: 17%;
+	left: 4.5%;
+}
+h1
+{
+ 	text-align: center;
+    color: #fff;
+    font-weight: normal;
+    margin-bottom: 20%;
+}
+input
+{
+    width: 80%; 
+    background:;   
+    padding: 2.5% 0%; 
+    box-sizing: border-box; 
+    margin-bottom: 10% ; 
+    font-size: 100%; 
+    
+}
+input[type="button"] 
+{
+	background: red; 
+	border: 0;
+	position: absolute;
+	top: 75%;
+	left: 10%;
+}
+#name                                
+{
+	position: absolute;
+	top: 20%;
+	left: 10%;
+}
+#Email
+{
+	position: absolute;
+	top: 30%;
+	left: 10%;
+}
+#Password
+{
+	position: absolute;
+	top: 50%;
+	left: 10%;
+}
+#Confirm
+{
+	position: absolute;
+	top: 60%;
+	left: 10%;
+}
+input[type="checkbox"]
+{
+	width: 9%;
+	position: absolute;
+	top: 85%;
+	left: 6.5%;
+}
+#remembertext
+{
+	position: absolute;
+	top: 85%;
+	left: 15%;	
+}
+
+.slideshow-container
+{
+	max-width: 1000px;
+	position: relative;
+	margin: auto;
+}
+.prev, .next
+{
+	cursor: pointer;
+	position: absolute;
+	top: 50%;
+	width: auto;
+	margin-top: -22px;
+	padding: 16px;
+	color: white;
+	font-weight: bold;
+	font-size: 18px;
+	transition: 0.6s ease;
+	border-radius: 0 3px 3px 0;
+}
+.next
+{
+	right: 0;
+	border-radius: 3px 0 0 3px;
+
+}
+.prev:hover, next:hover
+{
+	background-color: rgba(0,0,0,0.8);
+}
+.text
+{
+	color: #f2f2f2;
+	font-size: 12px;
+	padding: 8px 12px;
+	position: absolute;
+	top: 0;
+}
+.dot
+{
+	cursor: pointer;
+	height: 13px;
+	width: 13px;
+	margin: 0 2px;
+	background-color: #bbb;
+	border-radius: 50%;
+	display: inline-block;
+	transition: background-color 0.6s ease;
+}
+.active, dot:hover
+{
+	background-color: #717171;
+}
+.fade
+{
+	-webkit-animation-name:fabe;
+	-webkit-animation-duration:1.5s;
+	animation-name: fade;
+	animation-duration: 1.5s;
+}
+@-webkit-keyframes fade
+{
+	from{opacity: .4}
+	to{opacity: 1}
+}
+@keyframes fade 
+{
+	from{opacity: .4}
+	to{opacity: 1}
+}
